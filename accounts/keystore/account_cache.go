@@ -28,9 +28,9 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set/v2"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/yuriy0803/core-geth1/accounts"
+	"github.com/yuriy0803/core-geth1/common"
+	"github.com/yuriy0803/core-geth1/log"
 	"golang.org/x/exp/slices"
 )
 

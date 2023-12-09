@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/params/confp"
+	"github.com/yuriy0803/core-geth1/params/confp"
 	"gopkg.in/urfave/cli.v1"
 )
 

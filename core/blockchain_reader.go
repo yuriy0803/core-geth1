@@ -19,17 +19,17 @@ package core
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params/types/ctypes"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/yuriy0803/core-geth1/common"
+	"github.com/yuriy0803/core-geth1/consensus"
+	"github.com/yuriy0803/core-geth1/core/rawdb"
+	"github.com/yuriy0803/core-geth1/core/state"
+	"github.com/yuriy0803/core-geth1/core/state/snapshot"
+	"github.com/yuriy0803/core-geth1/core/types"
+	"github.com/yuriy0803/core-geth1/core/vm"
+	"github.com/yuriy0803/core-geth1/event"
+	"github.com/yuriy0803/core-geth1/params/types/ctypes"
+	"github.com/yuriy0803/core-geth1/rlp"
+	"github.com/yuriy0803/core-geth1/trie"
 )
 
 // CurrentHeader retrieves the current head header of the canonical chain. The

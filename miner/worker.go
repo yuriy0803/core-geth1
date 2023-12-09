@@ -26,19 +26,19 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set/v2"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params/mutations"
-	"github.com/ethereum/go-ethereum/params/types/ctypes"
-	"github.com/ethereum/go-ethereum/params/vars"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/yuriy0803/core-geth1/common"
+	"github.com/yuriy0803/core-geth1/consensus"
+	"github.com/yuriy0803/core-geth1/consensus/misc/eip1559"
+	"github.com/yuriy0803/core-geth1/core"
+	"github.com/yuriy0803/core-geth1/core/state"
+	"github.com/yuriy0803/core-geth1/core/txpool"
+	"github.com/yuriy0803/core-geth1/core/types"
+	"github.com/yuriy0803/core-geth1/event"
+	"github.com/yuriy0803/core-geth1/log"
+	"github.com/yuriy0803/core-geth1/params/mutations"
+	"github.com/yuriy0803/core-geth1/params/types/ctypes"
+	"github.com/yuriy0803/core-geth1/params/vars"
+	"github.com/yuriy0803/core-geth1/trie"
 )
 
 const (
@@ -1225,7 +1225,7 @@ func (w *worker) commit(env *environment, interval func(), update bool, start ti
 			interval()
 		}
 		// Create a local environment copy, avoid the data race with snapshot state.
-		// https://github.com/ethereum/go-ethereum/issues/24299
+		// https://github.com/yuriy0803/core-geth1/issues/24299
 		env := env.copy()
 		// Withdrawals are set to nil here, because this is only called in PoW.
 		block, err := w.engine.FinalizeAndAssemble(w.chain, env.header, env.state, env.txs, env.unclelist(), env.receipts, nil)

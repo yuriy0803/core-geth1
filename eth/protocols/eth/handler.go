@@ -21,14 +21,14 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/params/types/ctypes"
+	"github.com/yuriy0803/core-geth1/common"
+	"github.com/yuriy0803/core-geth1/core"
+	"github.com/yuriy0803/core-geth1/core/txpool"
+	"github.com/yuriy0803/core-geth1/metrics"
+	"github.com/yuriy0803/core-geth1/p2p"
+	"github.com/yuriy0803/core-geth1/p2p/enode"
+	"github.com/yuriy0803/core-geth1/p2p/enr"
+	"github.com/yuriy0803/core-geth1/params/types/ctypes"
 )
 
 const (

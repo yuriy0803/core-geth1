@@ -22,7 +22,7 @@ import (
 	"testing"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ethereum/go-ethereum/internal/cmdtest"
+	"github.com/yuriy0803/core-geth1/internal/cmdtest"
 )
 
 const registeredName = "clef-test"

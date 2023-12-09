@@ -19,9 +19,9 @@ package main
 import (
 	"os"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/yuriy0803/core-geth1/cmd/devp2p/internal/v4test"
+	"github.com/yuriy0803/core-geth1/internal/utesting"
+	"github.com/yuriy0803/core-geth1/log"
 	"github.com/urfave/cli/v2"
 )
 

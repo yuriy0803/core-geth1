@@ -23,7 +23,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/ethereum/go-ethereum/rlp/internal/rlpstruct"
+	"github.com/yuriy0803/core-geth1/rlp/internal/rlpstruct"
 	"github.com/holiman/uint256"
 )
 

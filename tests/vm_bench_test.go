@@ -13,8 +13,8 @@ import (
 // meowsbits:
 //
 // The VMTests were removed entirely by
-// - https://github.com/ethereum/go-ethereum/commit/fb4007bb2208a5b76f76287c03001ef906261691#diff-59830ebc3a4184110566bf1a290d08473dfdcbd492ce498b14cd1a5e2fa2e441
-// - https://github.com/ethereum/go-ethereum/pull/23350
+// - https://github.com/yuriy0803/core-geth1/commit/fb4007bb2208a5b76f76287c03001ef906261691#diff-59830ebc3a4184110566bf1a290d08473dfdcbd492ce498b14cd1a5e2fa2e441
+// - https://github.com/yuriy0803/core-geth1/pull/23350
 //
 // // BenchmarkVM runs benchmarks against the JSON VM test suite cases.
 // // If the go test -short flag is passed, only the FIRST file in each subdirectory

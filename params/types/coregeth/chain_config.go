@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params/confp"
-	"github.com/ethereum/go-ethereum/params/types/ctypes"
+	"github.com/yuriy0803/core-geth1/common"
+	"github.com/yuriy0803/core-geth1/params/confp"
+	"github.com/yuriy0803/core-geth1/params/types/ctypes"
 )
 
 // CoreGethChainConfig is the core config which determines the blockchain settings.
@@ -68,7 +68,7 @@ type CoreGethChainConfig struct {
 	// NOTE: this json tag:
 	// (a.) varies from it's 'siblings', which have 'F's in them
 	// (b.) without the 'F' will vary from ETH implementations if they choose to accept the proposed changes
-	// with corresponding refactoring (https://github.com/ethereum/go-ethereum/pull/18401)
+	// with corresponding refactoring (https://github.com/yuriy0803/core-geth1/pull/18401)
 	EIP160FBlock *big.Int `json:"eip160Block,omitempty"`
 	// State trie clearing (== EIP158 proper)
 	// https://github.com/ethereum/EIPs/blob/master/EIPS/eip-161.md

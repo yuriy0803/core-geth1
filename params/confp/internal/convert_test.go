@@ -26,11 +26,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/params/confp"
-	"github.com/ethereum/go-ethereum/params/types/coregeth"
-	"github.com/ethereum/go-ethereum/params/types/ctypes"
-	"github.com/ethereum/go-ethereum/params/types/genesisT"
-	"github.com/ethereum/go-ethereum/params/types/goethereum"
+	"github.com/yuriy0803/core-geth1/params/confp"
+	"github.com/yuriy0803/core-geth1/params/types/coregeth"
+	"github.com/yuriy0803/core-geth1/params/types/ctypes"
+	"github.com/yuriy0803/core-geth1/params/types/genesisT"
+	"github.com/yuriy0803/core-geth1/params/types/goethereum"
 )
 
 func mustReadTestdataTo(t *testing.T, fabbrev string, into interface{}) {

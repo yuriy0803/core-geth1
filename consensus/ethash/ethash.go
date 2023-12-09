@@ -35,13 +35,13 @@ import (
 	"unsafe"
 
 	"github.com/edsrzf/mmap-go"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	lrupkg "github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/yuriy0803/core-geth1/common/hexutil"
+	lrupkg "github.com/yuriy0803/core-geth1/common/lru"
+	"github.com/yuriy0803/core-geth1/consensus"
+	"github.com/yuriy0803/core-geth1/crypto"
+	"github.com/yuriy0803/core-geth1/log"
+	"github.com/yuriy0803/core-geth1/metrics"
+	"github.com/yuriy0803/core-geth1/rpc"
 )
 
 var ErrInvalidDumpMagic = errors.New("invalid dump magic")

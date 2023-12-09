@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/params/types/coregeth"
-	"github.com/ethereum/go-ethereum/params/types/goethereum"
+	"github.com/yuriy0803/core-geth1/params/types/coregeth"
+	"github.com/yuriy0803/core-geth1/params/types/goethereum"
 )
 
 func TestUnmarshalChainConfigurator(t *testing.T) {

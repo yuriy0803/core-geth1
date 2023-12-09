@@ -23,9 +23,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/yuriy0803/core-geth1/accounts"
+	"github.com/yuriy0803/core-geth1/event"
+	"github.com/yuriy0803/core-geth1/log"
 	"github.com/karalabe/usb"
 )
 

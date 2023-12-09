@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/les/utils"
+	"github.com/yuriy0803/core-geth1/les/utils"
 )
 
 func TestTransition(t *testing.T) {

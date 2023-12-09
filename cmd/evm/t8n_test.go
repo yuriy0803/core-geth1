@@ -25,8 +25,8 @@ import (
 	"testing"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ethereum/go-ethereum/cmd/evm/internal/t8ntool"
-	"github.com/ethereum/go-ethereum/internal/cmdtest"
+	"github.com/yuriy0803/core-geth1/cmd/evm/internal/t8ntool"
+	"github.com/yuriy0803/core-geth1/internal/cmdtest"
 )
 
 func TestMain(m *testing.M) {

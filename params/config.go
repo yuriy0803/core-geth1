@@ -19,10 +19,10 @@ package params
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params/types/ctypes"
-	"github.com/ethereum/go-ethereum/params/types/goethereum"
-	"github.com/ethereum/go-ethereum/params/vars"
+	"github.com/yuriy0803/core-geth1/common"
+	"github.com/yuriy0803/core-geth1/params/types/ctypes"
+	"github.com/yuriy0803/core-geth1/params/types/goethereum"
+	"github.com/yuriy0803/core-geth1/params/vars"
 )
 
 // Genesis hashes to enforce below configs on.
@@ -268,7 +268,7 @@ var NetworkNames = map[string]string{
 }
 
 /*
-							https://github.com/ethereum/go-ethereum/blob/master/params/config.go#L242
+							https://github.com/yuriy0803/core-geth1/blob/master/params/config.go#L242
 
 								AllEthashProtocolChanges = &ChainConfig{
 								big.NewInt(1337),

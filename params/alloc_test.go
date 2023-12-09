@@ -3,8 +3,8 @@ package params
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params/types/genesisT"
+	"github.com/yuriy0803/core-geth1/common"
+	"github.com/yuriy0803/core-geth1/params/types/genesisT"
 )
 
 func ExampleMainnetAllocData() {

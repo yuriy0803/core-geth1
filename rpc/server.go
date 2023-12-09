@@ -22,7 +22,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/yuriy0803/core-geth1/log"
 )
 
 const MetadataApi = "rpc"

@@ -22,8 +22,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/cmd/ancient-store-mem/lib"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/yuriy0803/core-geth1/cmd/ancient-store-mem/lib"
+	"github.com/yuriy0803/core-geth1/rpc"
 	"github.com/spf13/cobra"
 )
 

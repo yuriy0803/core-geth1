@@ -31,10 +31,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/yuriy0803/core-geth1/crypto"
+	"github.com/yuriy0803/core-geth1/ethdb"
+	"github.com/yuriy0803/core-geth1/p2p"
+	"github.com/yuriy0803/core-geth1/rpc"
 	"github.com/xeipuuv/gojsonschema"
 
 	"github.com/stretchr/testify/assert"

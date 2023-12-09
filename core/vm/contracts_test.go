@@ -25,10 +25,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/params/types/ctypes"
+	"github.com/yuriy0803/core-geth1/params"
+	"github.com/yuriy0803/core-geth1/params/types/ctypes"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/yuriy0803/core-geth1/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

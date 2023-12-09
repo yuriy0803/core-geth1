@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/beacon/merkle"
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/yuriy0803/core-geth1/beacon/merkle"
+	"github.com/yuriy0803/core-geth1/beacon/params"
+	"github.com/yuriy0803/core-geth1/common"
 )
 
 // LightClientUpdate is a proof of the next sync committee root based on a header

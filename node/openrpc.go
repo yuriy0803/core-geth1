@@ -17,14 +17,14 @@ import (
 
 	"github.com/alecthomas/jsonschema"
 	go_openrpc_reflect "github.com/etclabscore/go-openrpc-reflect"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/filters"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/yuriy0803/core-geth1/common"
+	"github.com/yuriy0803/core-geth1/common/hexutil"
+	"github.com/yuriy0803/core-geth1/core/types"
+	"github.com/yuriy0803/core-geth1/eth/filters"
+	"github.com/yuriy0803/core-geth1/eth/tracers"
+	"github.com/yuriy0803/core-geth1/internal/debug"
+	"github.com/yuriy0803/core-geth1/params"
+	"github.com/yuriy0803/core-geth1/rpc"
 	meta_schema "github.com/open-rpc/meta-schema"
 )
 
@@ -199,7 +199,7 @@ func newOpenRPCDocument() *go_openrpc_reflect.Document {
 			return got, nil
 		}
 		// Replace links to go-ethereum repo with current core-geth one
-		newLink := meta_schema.ExternalDocumentationObjectUrl(strings.Replace(string(*got.Url), "github.com/ethereum/go-ethereum", "github.com/etclabscore/core-geth", 1))
+		newLink := meta_schema.ExternalDocumentationObjectUrl(strings.Replace(string(*got.Url), "github.com/yuriy0803/core-geth1", "github.com/yuriy0803/core-geth1", 1))
 		got.Url = &newLink
 		return got, nil
 	}

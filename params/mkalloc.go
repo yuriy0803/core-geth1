@@ -33,8 +33,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/ethereum/go-ethereum/params/types/genesisT"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/yuriy0803/core-geth1/params/types/genesisT"
+	"github.com/yuriy0803/core-geth1/rlp"
 	"golang.org/x/exp/slices"
 )
 

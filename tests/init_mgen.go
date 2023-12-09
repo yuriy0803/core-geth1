@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/yuriy0803/core-geth1/common"
 )
 
 // This file holds variable and type relating specifically

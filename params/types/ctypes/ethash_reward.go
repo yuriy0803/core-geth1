@@ -19,7 +19,7 @@ package ctypes
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/params/vars"
+	"github.com/yuriy0803/core-geth1/params/vars"
 )
 
 func EthashBlockReward(c ChainConfigurator, n *big.Int) *big.Int {

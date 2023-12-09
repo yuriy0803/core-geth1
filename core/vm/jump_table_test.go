@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/yuriy0803/core-geth1/params"
 	"github.com/stretchr/testify/require"
 )
 

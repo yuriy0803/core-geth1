@@ -21,9 +21,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/params/types/coregeth"
-	"github.com/ethereum/go-ethereum/params/types/ctypes"
-	"github.com/ethereum/go-ethereum/params/types/goethereum"
+	"github.com/yuriy0803/core-geth1/params/types/coregeth"
+	"github.com/yuriy0803/core-geth1/params/types/ctypes"
+	"github.com/yuriy0803/core-geth1/params/types/goethereum"
 	"github.com/tidwall/gjson"
 )
 
@@ -52,28 +52,28 @@ func (c GenericCC) DAOSupport() bool {
 
 // Following vars define sufficient JSON schema keys for configurator type inference.
 var (
-	// Fields known (and unique, if possible) to etclabscore/core-geth.
+	// Fields known (and unique, if possible) to yuriy0803/core-geth1.
 	coregethSchemaSuffice = []string{
 		"networkId", "config.networkId",
 		"requireBlockHashes", "config.requireBlockHashes",
 		"eip2FBlock", "config.eip2FBlock",
 		"supportedProtocolVersions", "config.supportedProtocolVersions",
 	}
-	// Fields unknown for etclabscore/core-geth.
+	// Fields unknown for yuriy0803/core-geth1.
 	coregethSchemaMustNot = []string{
 		"EIP1108FBlock", "config.EIP1108FBlock",
 		"eip158Block", "config.eip158Block",
 		"daoForkSupport", "config.daoForkSupport",
 	}
 
-	// Fields known to ethereum/go-ethereum.
+	// Fields known to yuriy0803/core-geth1.
 	goethereumSchemaSuffice = []string{
 		"difficulty",
 		"byzantiumBlock", "config.byzantiumBlock",
 		"chainId", "config.chainId",
 		"homesteadBlock", "config.homesteadBlock",
 	}
-	// Fields unknown to ethereum/go-ethereum.
+	// Fields unknown to yuriy0803/core-geth1.
 	goethereumSchemaMustNot = []string{
 		"engine",
 		"genesis.seal",

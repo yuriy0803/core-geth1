@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/params/types/ctypes"
+	"github.com/yuriy0803/core-geth1/params/types/ctypes"
 )
 
 // CloneChainConfigurator creates a copy of the given ChainConfigurator.

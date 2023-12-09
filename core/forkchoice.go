@@ -24,11 +24,11 @@ import (
 	mrand "math/rand"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/yuriy0803/core-geth1/common"
+	"github.com/yuriy0803/core-geth1/common/math"
+	"github.com/yuriy0803/core-geth1/consensus"
+	"github.com/yuriy0803/core-geth1/core/types"
+	"github.com/yuriy0803/core-geth1/log"
 )
 
 // ForkChoice is the fork chooser based on the highest total difficulty of the
@@ -123,7 +123,7 @@ func (f *ForkChoice) ReorgNeeded(current *types.Header, extern *types.Header) (b
 	// }
 	/*
 		This is chunk was added with the following commit, citing it to be logically inoperative.
-		etclabscore/core-geth omits it because of subsequent Artificial Finality checks on the reorg var.
+		yuriy0803/core-geth1 omits it because of subsequent Artificial Finality checks on the reorg var.
 
 			core: clarify code in forkchoice (#26257)
 

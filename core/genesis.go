@@ -23,18 +23,18 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/params/confp"
-	"github.com/ethereum/go-ethereum/params/types/ctypes"
-	"github.com/ethereum/go-ethereum/params/types/genesisT"
-	"github.com/ethereum/go-ethereum/params/vars"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/yuriy0803/core-geth1/common"
+	"github.com/yuriy0803/core-geth1/core/rawdb"
+	"github.com/yuriy0803/core-geth1/core/state"
+	"github.com/yuriy0803/core-geth1/core/types"
+	"github.com/yuriy0803/core-geth1/ethdb"
+	"github.com/yuriy0803/core-geth1/log"
+	"github.com/yuriy0803/core-geth1/params"
+	"github.com/yuriy0803/core-geth1/params/confp"
+	"github.com/yuriy0803/core-geth1/params/types/ctypes"
+	"github.com/yuriy0803/core-geth1/params/types/genesisT"
+	"github.com/yuriy0803/core-geth1/params/vars"
+	"github.com/yuriy0803/core-geth1/trie"
 )
 
 var errGenesisNoConfig = errors.New("genesis has no chain configuration")
@@ -472,7 +472,7 @@ func CommitGenesis(g *genesisT.Genesis, db ethdb.Database, triedb *trie.Database
 	}
 
 	// Upstream omission:
-	// ethereum/go-ethereum does: config.CheckConfigForkOrder()
+	// yuriy0803/core-geth1 does: config.CheckConfigForkOrder()
 	// core-geth does not.
 
 	if config.GetConsensusEngineType().IsClique() && len(block.Extra()) == 0 {

@@ -19,9 +19,9 @@ package logger
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/yuriy0803/core-geth1/common"
+	"github.com/yuriy0803/core-geth1/core/types"
+	"github.com/yuriy0803/core-geth1/core/vm"
 )
 
 // accessList is an accumulator for the set of accounts and storage slots an EVM
@@ -136,7 +136,7 @@ func (a *AccessListTracer) CaptureStart(env *vm.EVM, from common.Address, to com
 }
 
 /*
-ethereum/go-ethereum@v1.10.15 cc @ziogaschr
+yuriy0803/core-geth1@v1.10.15 cc @ziogaschr
 func (a *AccessListTracer) CaptureStart(env *vm.EVM, from common.Address, to common.Address, create bool, input []byte, gas uint64, value *big.Int) {
 }
 */
