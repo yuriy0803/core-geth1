@@ -1,4 +1,4 @@
-module github.com/ethereum/go-ethereum
+module github.com/yuriy0803/core-geth1
 
 go 1.19
 
